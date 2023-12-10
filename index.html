@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alegreya+SC:ital,wght@0,500;1,400&family=Alegreya+Sans&family=Amatic+SC&family=Open+Sans:ital,wght@1,700&family=Poppins:wght@100&family=Roboto+Flex:opsz,wght@8..144,800&family=Rubik+Bubbles&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style/all.min.css">
+    <link rel="stylesheet" href="./style/bootstrap.min.css">
+    <link rel="stylesheet" href="./style/style.css">
+    <title>Quote APP</title>
+</head>
+<body>
+    <section class="section d-flex align-items-center">
+        <div class="container">
+            <div class=" row  justify-content-center">
+                <div class="col-md-12 d-flex justify-content-center mb-5">
+                    <h1>" Quote of the Day "</h1>
+                </div>
+               <div class="col-md-12 p-5
+                 border rounded-pill border-2 border-white quoteRow">
+                <div class="col-md-12 d-flex text-center justify-content-center mb-3">
+                    <p>Press the button below to recieve a random quote!</p>
+                </div>
+                <div class="col-md-12 d-flex justify-content-center mb-3">
+                    <button class="btn btn-primary  rounded-pill" onclick="getRandomQuote()">New Quote</button>
+                </div>
+                <div class="col-md-12 text-center d-flex justify-content-center flex-column align-items-center">
+                    <h5 class="mb-4 fs-3" id="quoteText"></h5>
+                    <h6 id="quoteAuther"></h6>
+                </div>
+               </div>
+            </div>
+
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+<script src="./js/index.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

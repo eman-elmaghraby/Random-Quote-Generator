@@ -1,0 +1,63 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: 'Alegreya Sans', sans-serif;
+font-family: 'Alegreya SC', serif;
+font-family: 'Amatic SC', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto Flex', sans-serif;
+}
+.section{
+    background: rgb(34,193,195);
+background: linear-gradient(0deg, rgba(34,193,195,1) 34%, rgba(5,34,242,1) 100%);
+    width: 100%;
+    height: 100vh;
+   
+}
+
+.quoteRow{
+    position: relative;
+}
+.quoteRow::before{
+    font-family: "Font Awesome 5 Free";
+    content: "\f10d";
+    position: absolute;
+    display: inline-block;
+    padding-right: 3px;
+    vertical-align: middle;
+    font-weight: 900;
+    color: white;
+    background-color: rgb(23, 120, 217);
+    padding: 28px;
+    left: 14%;
+    bottom: 87%;
+    border: 2px solid;
+    border-radius: 50%;
+
+}
+.quoteRow::after{
+    font-family: "Font Awesome 5 Free";
+    content: "\f10e";
+    position: absolute;
+    display: inline-block;
+    padding-right: 3px;
+    vertical-align: middle;
+    font-weight: 900;
+    color: white;
+    background-color: #1FB4C7;
+    padding: 28px;
+    right: 14%;
+    top: 86%;
+    border: 2px solid;
+    border-radius: 50%;
+
+}
+
+.btn:hover{
+    color: rgb(23, 120, 217);
+    background-color: white;
+    border: 3px solid rgb(23, 120, 217);
+}
